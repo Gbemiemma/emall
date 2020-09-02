@@ -1,0 +1,40 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url("image/2d20a9bc326bc4859c5e6f40a52c4e86~2.jpg");
+    background-size: cover;
+    background-position-y: top;
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background-color: aqua;
+    text-align: right;
+}
+.menu-bar ul
+{
+    display: flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px
+    padding 15x;
+}
+.menu-bar ul li a
+{
+    text-decoration: bisque;
+    color: black;
+}
+.active, .menu-bar ul li :hover
+{
+background-color: cadetblue;
+border-radius: 15px;
+}
